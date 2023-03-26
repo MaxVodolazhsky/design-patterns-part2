@@ -21,6 +21,6 @@ public class Main {
         long nowWithCache = System.currentTimeMillis();
         connector.getUser(1);
         long afterWithCache = System.currentTimeMillis();
-        System.out.println("Длительность запроса без кэша = " + (afterWithCache - nowWithCache));
+        System.out.println("Длительность запроса c кэшем = " + (afterWithCache - nowWithCache));
     }
 }
